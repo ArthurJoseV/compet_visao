@@ -46,4 +46,6 @@ if total_lidos > 0:
     cinza = cv2.cvtColor(quadro_meio, cv2.COLOR_BGR2GRAY)
     bordas = cv2.Canny(cinza, threshold1=50, threshold2=150)
     cv2.imwrite("frame_meio_bordas.jpg", bordas)
-    print("Salvo frame_meio_bordas.jpg com filtro Canny aplicado")
+    print("Salvo frame_meio_bordas.jpg com filtro Canny aplicado")  
+
+    
